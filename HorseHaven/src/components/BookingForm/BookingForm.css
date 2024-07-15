@@ -1,0 +1,115 @@
+.booking-form-image {
+    background-image: url("../../assets/ManyHorses.jpg");
+    filter: blur(2px);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.booking-form {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timing {
+    height: 80vh;
+    width: 35%;
+    background-color: hsl(12, 39%, 33%);
+    z-index: 9;
+    align-content: center;
+    color: white;
+    place-content: center;
+}
+
+.timing h1 {
+    font-size: 3.5vw;
+    padding-left: 7vw;
+    padding-bottom: 3.5vw;
+}
+
+.timing--h31 {
+    font-size: 1.6vw;
+    padding-left: 9vw;
+    padding-bottom: 2vw;
+}
+
+.timing--h32 {
+    font-size: 1.6vw;
+    padding-left: 11vw;
+    padding-bottom: 2vw;
+}
+
+.timing p {
+    padding: 0 12vw;
+    padding-bottom: 2vw;
+}
+
+.number {
+    padding-left: 9vw;
+    font-weight: 500;
+    padding-bottom: 5vw;
+}
+
+.form-in {
+    height: 80vh;
+    width: 45%;
+    background-color: #F4E6D0;
+    z-index: 9;
+}
+
+.form-in h3 {
+    padding-top: 6vw;
+    margin-left: 15vw;
+    font-weight: 500;
+}
+
+.form-in h1 {
+    padding: 1vw 0;
+    font-size: 2.5vw;
+    margin-left: 8.5vw;
+    margin-bottom: 1vw;
+    font-weight: 500;
+}
+
+.form-in form {
+    padding: 0 3vw;
+}
+
+.entry {
+    padding: 0.5vw 0.5vw;
+    margin-bottom: 0.3vw;
+    border: 1px solid #A4A4A4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.entry label {
+    font-size: 1vw;
+}
+
+.entry select {
+    width: 85%;
+    margin-left: 1vw;
+    padding: 0.3vw 0;
+}
+
+.entry input {
+    width: 85%;
+    margin-left: 1vw;
+    padding: 0.3vw 0;
+}
+
+.form-btn {
+    width: 100%;
+    height: 3vw;
+    background-color: hsl(12, 39%, 33%);
+    border: none;
+    color: white;
+    margin-top: 2vw;
+}

@@ -1,0 +1,27 @@
+.card {
+    width: 30vw;
+    height: 40vw;
+}
+
+.card-image {
+    width: 100%;
+    height: 50%;
+    border: 1px solid hsl(12, 39%, 33%);
+    margin-bottom: 1vw;
+}
+
+.name-container {
+    width: 100%;
+    color: white;
+    background-color: hsl(12, 39%, 33%);
+    border-radius: 0.5vw;
+    align-items: center;
+    font-size: 2.3vw;
+    padding: 0 10vw;
+    margin-bottom: 1vw;
+}
+
+.card p {
+    width: 100%;
+    font-size: 1.5vw;
+}

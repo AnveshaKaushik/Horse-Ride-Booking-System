@@ -1,0 +1,13 @@
+.footer {
+    height: 3vw;
+    width: 100%;
+    background-color: #F4E6D0;
+    padding: 0 5vw;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 1.4vw;
+    padding-top: 0.5vw;
+}
+

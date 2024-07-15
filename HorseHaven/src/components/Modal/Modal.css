@@ -1,0 +1,42 @@
+.modal {
+    height: 32vw;
+    width: 35vw;
+    background-color: hsl(12, 39%, 33%);
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: fixed;
+    top: 8vw;
+    left: 33vw;
+    z-index: 9;
+}
+
+.modal--image {
+    height: 65%;
+    width: 100%;
+    background-color:#F4E6D0;
+    border-radius: 1vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal--image img {
+    width: 86%;
+    height: 86%;
+    border-radius: 1vw;
+
+}
+
+.modal h3 {
+    font-size: 2.6vw;
+    padding: 0.5vw 7.2vw;
+}
+
+.modal p {
+    padding: 0.5vw 2.2vw;
+    font-size: 1.4vw;
+}

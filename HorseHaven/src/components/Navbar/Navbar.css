@@ -1,0 +1,34 @@
+nav {
+    height: 5vw;
+    width: 100%;
+    background-color: #F4E6D0;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #764134;
+}
+
+.nav--1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav--1 h2 {
+    margin-left: 1vw;
+    color: #441111;
+}
+
+.nav--img {
+    height: 4vw;
+    width: 4vw;
+}
+
+.nav--2 {
+    display: flex;
+    gap: 2vw;
+}
+
+.nav--2--items {
+    padding: 0;
+}
